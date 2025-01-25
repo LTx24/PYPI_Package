@@ -43,11 +43,6 @@ To apply TOPSIS with weights `[1, 1, 1, 2]` and impacts `[+, +, -, +]`, run:
 ```bash
 topsis data.csv "1,1,1,2" "+,+,-,+" result.csv
 ```
-If you get an error (topsis not recognized) then this possibly due to path of your Python Package Then Try :
-
-![Screenshot 2025-01-19 184210](https://github.com/user-attachments/assets/72fc156b-38e7-4b05-8eee-4b5f84e595d1)
-
-This will generate a result file `result.csv` with the calculated TOPSIS scores and rankings.
 
 ---
 
